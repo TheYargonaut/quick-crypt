@@ -8,6 +8,8 @@ from Crypto.Hash import SHA512
 import base64
 random_generator = Random.new().read
 
+# TODO: add environment
+
 # main window
 top = tk.Tk()
 top.title( 'QuickCrypt Text' )
